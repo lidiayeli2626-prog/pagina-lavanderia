@@ -12,4 +12,7 @@ export default defineConfig({
   tanstackStart: {
     server: { entry: "server" },
   },
+  vite: {
+    base: '/pagina-lavanderia/', // 👈 Esto le dice a Vite la ruta correcta en GitHub Pages
+  }
 });
